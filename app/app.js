@@ -26,7 +26,7 @@ angular.module('employee', ['ngRoute', 'ngStorage', 'ngResource','ngAnimate','no
 	function ($routeProvider, $locationProvider, noCaptchaProvider) {
 
 
-    noCaptchaProvider.setSiteKey('6LchXkIUAAAAAM6ENPgDi4vwP2lsnbU9F2E9zmDc');
+    noCaptchaProvider.setSiteKey('6LcaOeUUAAAAACIolvxrnGGQNfsHjsX0dOGgp0tO');
     noCaptchaProvider.setTheme('dark');
 	$routeProvider.
    when('/', {

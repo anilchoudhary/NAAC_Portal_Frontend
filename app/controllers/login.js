@@ -41,6 +41,7 @@ angular.module('employee')
 					else if (res.status == 201 || res.status == 200) {
 				        $rootScope.csrf = res.data.csrf.csrf;
 						$http.defaults.headers.common.Authorization = 'JWT ' + res.data.token;
+						// $http.defaults.headers.common['Authorization'] = 'JWT ' + res.data.token;
 						$location.url('/dashboard');
 
 					}
